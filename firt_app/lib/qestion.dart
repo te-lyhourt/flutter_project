@@ -9,8 +9,8 @@ class Qestion extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.all(1),
-      margin: EdgeInsets.all(10),
+      padding: const EdgeInsets.all(8.0),
+      margin: const EdgeInsets.all(10),
       child: Text(
         questionText,
         style: TextStyle(fontSize: 28),
